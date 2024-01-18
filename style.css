@@ -1,0 +1,360 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	height: 0 auto;
+}
+.menu{
+	height: 100px;
+	line-height: 100px;
+	background-color: #202c01;
+	display: flex;
+	justify-content: space-around;
+}
+.menu h1{
+	font-weight: 300;
+	font-size: 40px;
+	color: white;
+}
+.menu p{
+	font-size: 20px;
+	color: white;
+}
+.menu a{
+	font-size: 20px;
+	font-weight: 300;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	background-color: blue;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+.blok1{
+	height: 950px;
+	margin-top: -200px;
+	background-color: #202c01;
+}
+.blok1 h2{
+	z-index: 2;
+	font-weight: 450;
+	letter-spacing: 5px;
+	padding-top: 100px;
+	color: white;
+	margin-top: 200px;
+	margin-left: 90px;
+	font-size: 100px;
+
+}
+ .blok1 p{
+ 	color: white;
+ 	margin-top: -100px;
+ 	margin-left: 90px;
+ 	width: 300px;
+ }
+.blok1 img{
+	z-index: 2;
+	margin-left: 640px;
+	margin-top: -260px;
+}
+.blok1 h1{
+	margin-top: 1150px;
+	color: white;
+	margin-left: -1000px;
+	transform: rotate(90deg);
+}
+.blok-1{
+	margin-top: 100px;
+	margin-left: -100px;
+	width: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+.blok-1 img{
+	padding-right: -1000px;
+	margin-left: 100px;
+	width: 150px;
+	height: 00px150px;
+	border-radius: 50%;
+} 
+.blok2{
+	padding: 100px;
+	background-color: #202c01;
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+}
+.blok2 p{
+	color: white;
+	margin-left: 0px;
+	margin-top: 20px;
+	width: 400px;
+}
+.right p{
+	color: white;
+	margin-left: 100px;
+	margin-top: 100px;
+	width: 400px;
+}
+.left img{
+	margin-top: 100px;
+}
+.blok2 h1{
+	color: white;
+	margin-top: 30px;
+	font-size: 50px;
+	font-weight: 300;
+
+}
+.blok3{
+	margin-top: 50px;
+}
+.bloke{
+	padding: 60px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.blok3 h1{
+	font-size: 55px;
+}
+.blok3 h4{
+	font-size: 40px;
+	width: 400px;
+}
+
+.bloks{
+	margin-left: -50px;
+	padding: 85px;
+	margin-top: -60px;
+}
+.bloks p{
+	color: grey;
+	margin-top: 30px;
+}
+.bloks h2{
+	margin-left: 420px;
+	font-size: 30px;
+}
+.blok3 h1{
+	margin-left: 100px;
+}
+.blok4 h2{
+	font-size: 50px;
+	padding-left: 600px;
+	padding-top: 100px;
+	color: white;
+	text-shadow: 5px 5px 10px black;
+}
+.blok4 p{
+	padding-right: 50px;
+	margin-top: 30px;
+	padding-left: 600px;
+	color: white;
+}
+.blok5 img{
+	margin-top: 100px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.blok5{
+	margin-bottom: 100px;
+	margin-left: 100px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.blok-5 p{
+	margin-top: 20px;
+	width: 300px;
+	justify-content: center;
+}
+.blok6 h2{
+	position: absolute;
+	max-width: 100px;
+	margin-top: -600px;
+	color: white;
+	padding-left: 400px;
+}
+.blok6{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.bloka img{
+	position: relative;
+	width: 500px;
+	height: 600px;
+}
+.blok7 h2{
+	margin-top: 100px;
+	margin-left: 400px;
+	font-size: 50px;
+}
+.blok7 p{
+	color: grey;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	margin-left: 500px;
+}
+.blok-7{
+	margin-left: 100px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.blok-7 a{
+	text-decoration: none;
+	color: black;
+	line-height: 50px;
+	padding-left: 20px;
+	font-size: 25px; 
+	width: 300px;
+	height: 50px;
+	border: 2px dashed; black;
+}
+.blok7 a:last-child{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 400px;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 25px;
+	color: white;
+	background-color: #202c01;
+}
+.blok8{
+	margin-top: 350px;
+}
+.blokm{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.blok-8 img{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 300px;
+	width: 100px;
+	height: 25px;
+	z-index: 2;
+}
+.blok8 h2{
+	font-size: 60px;
+	margin-top: 30px;
+	margin-left: 300px;
+	justify-content: center;
+}
+.blok8 p{
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 400px;
+	margin-bottom: 50px;
+}
+.blok-8 h1{
+	margin-top: 40px;
+	margin-left: 70px;
+	position: absolute;
+	z-index: 2;
+}
+.blok-8 img:last-child{
+	z-index: 1;
+	margin: 30px;
+	width: 350px;
+	height: 500px;
+}
+.blokp img:first-child{
+	margin-top: 50px;
+	margin-left: 200px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.blok9 p{
+	font-size: 40px;
+
+	margin-left: 200px;
+	margin-top: 100px;
+}
+.blok9{
+	margin-top: 700px;
+	width: 1000px;
+}
+.blokp h1{
+	margin-top: -0px;
+	font-size: 17px;
+	margin-left: 350px;
+}
+.blokp h2{
+	margin-top: -70px;
+	margin-left: 350px;
+}
+.blokp p{
+	position: absolute;
+	margin-left: 800px;
+	margin-top: -50px;
+}
+.blokp img:last-child{
+	width: 50px;
+	height: 30px;
+	margin-left: 850px;
+	margin-top: -150px;
+}
+.blok10{
+	height: 300px;
+	color: white;
+	padding-top: 100px;
+	margin-top: 100px;
+	background-color: #202c01;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 6fr;
+}
+.blok-101 h2{
+	margin-left: -50px;
+	color: white;
+}
+.blok10 h2:first-child{
+	color: white;
+	font-size: 30px;
+	padding-left: 50px;
+}
+.blok-10 form input{
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	text-indent: 10px;
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+}
+.blok-10 button{
+	width: 200px;
+	height: 50px;
+	color: white;
+	background-color: red;
+}
+.blok01{
+	background-color: #202c01;
+	display: grid;
+	grid-template-columns: 3fr 1fr 1fr 2fr;
+}
+.blok01 h2{
+ 	color: white;
+ 	margin-top: 20px;
+ 	margin-left: 30px;
+}
+hr{
+	border: 1px dashed silver;
+	background-color: #202c01;
+}
+.blokblok img{
+	margin-top: 20px;
+	
+	width: 20px;
+	height: 20px;
+	margin: 20px;
+}
